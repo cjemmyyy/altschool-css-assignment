@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ 
+/* Reset default margins and paddings */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main wrapper with fixed dimensions*/
+.container {
+    width: 1280px;
+    height: 832px;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header section */
+.header {
+    background-color: white;
+    padding: 70px;
+    text-align: left;
+    flex: 1;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+/* Gray background section */
+.gray-section {
+    background-color: #666666;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card box */
+.card {
+    padding: 45px;
+    width: 600px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    background-color:  white;
+    width: 70%;
+    text-align: left;
+}
+
+ /* Yellow banner */
+ .yellow-banner {
+    background: #f1b600;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    top: 1px;
+    left: -5px;
+    font-size: 24px;
+}
+
+/* Main text */
+.card p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+}
